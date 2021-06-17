@@ -1,4 +1,4 @@
-class git-clone < Formula
+class git_clone < Formula
   desc "Tool for maintaining multiple git accounts across any git system supporting HTTPS."
   homepage "https://github.com/Flare576/git-clone"
   url "https://github.com/Flare576/git-clone/archive/refs/tags/v0.0.4.tar.gz"
