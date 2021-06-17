@@ -8,7 +8,7 @@ class GitClone < Formula
   depends_on "git"
 
   def install
-    bin.install "git-clone.sh" => "clone"
+    bin.install "bin/git-clone" => "clone"
   end
 
   test do
