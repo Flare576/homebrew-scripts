@@ -6,8 +6,8 @@ class Dvol < Formula
 
   desc "Docker Volume mapping control; container access made easy!"
   homepage "https://github.com/Flare576/dvol"
-  url "https://github.com/Flare576/dvol/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "eb7cad43b572be7ccf3ce7781dfd5240044b4bf7829158c1e21ec6c44c3a2627"
+  url "https://github.com/Flare576/dvol/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 ""
   license "MIT"
 
   depends_on "python"
