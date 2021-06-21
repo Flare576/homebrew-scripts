@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Dvol < Formula
   include Language::Python::Virtualenv
 
@@ -9,8 +6,9 @@ class Dvol < Formula
   url "https://test-files.pythonhosted.org/packages/ce/1b/8c2332727bd80a67818bdef8ad964c01f20633d26566b07497d958473a68/dvol-0.0.6.tar.gz"
   sha256 "12bbebbaa3faa63cd5c4173717bd0dba856fb83122f26706523f84a14ac46151"
   license "MIT"
+  head "https://github.com/Flare576/dvol.git"
 
-  depends_on "python3"
+  depends_on "python@3.9"
 
   resource "gitpython" do
     url "https://files.pythonhosted.org/packages/29/22/3d591875078c1c5e7e11b478616821995053968a74b76043c55448c46381/GitPython-3.1.18.tar.gz"
