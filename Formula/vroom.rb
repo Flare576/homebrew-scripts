@@ -1,8 +1,8 @@
 class Vroom < Formula
   desc "Wrapper for make to help setup/execute standard destroy/setup/run/watch commands"
   homepage "https://github.com/Flare576/vroom"
-  url "https://github.com/Flare576/vroom/archive/refs/tags/v12.0.1.tar.gz"
-  sha256 "6035f975af14a48e2fd75d69003e54d35b8a9f20ee9c627d8d01921afee4d5e2"
+  url "https://github.com/Flare576/vroom/archive/refs/tags/v12.0.2.tar.gz"
+  sha256 "9f8216c53baf98747c7d230be8ff7d01cd13282d99941ec75f31ed4b4b626ade"
   license "MIT"
 
   depends_on "make"
