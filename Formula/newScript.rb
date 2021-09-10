@@ -1,8 +1,8 @@
 class Newscript < Formula
   desc "Quickly generate script stubs in js, sh, or py"
   homepage "https://github.com/Flare576/newScript"
-  url "https://github.com/Flare576/newScript/archive/refs/tags/v0.0.6.tar.gz"
-  sha256 "656b2fe4fcc3f93f0c208ba14eecf2b8dca04d30f7e39c4bfbf1bd86d0550420"
+  url "https://github.com/Flare576/newScript/archive/refs/tags/v0.0.7.tar.gz"
+  sha256 "c167ab9a7b399858a17242d0f03c558e6bbef2d521655db8e2cf867e0c3a8b5c"
   license "MIT"
 
   depends_on "node"
