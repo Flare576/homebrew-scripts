@@ -1,8 +1,8 @@
 class Gac < Formula
   desc "Git Add Commit makes common git tasks easier"
   homepage "https://github.com/Flare576/gac"
-  url "https://github.com/Flare576/gac/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "d0c430e958e1cac7adce05c10d781d63ca4843aec654eaf65b3e223686110d5b"
+  url "https://github.com/Flare576/gac/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 ""
   license "MIT"
 
   depends_on "git"
