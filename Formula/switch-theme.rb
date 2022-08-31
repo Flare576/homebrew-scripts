@@ -1,8 +1,8 @@
 class SwitchTheme < Formula
   desc "Tool for switching themes in vim, tmux, zsh, bat, vsCode, terminals (gnome, mintty, Terminal.app), and whatever else I figure out."
   homepage "https://github.com/Flare576/switch-theme"
-  url "https://github.com/Flare576/switch-theme/archive/refs/tags/v1.3.1.tar.gz"
-  sha256 "5b8d02d1fcfd37fe634c8cff3c7c22ec187cb4d61cabecb88b82df91e1461d52"
+  url "https://github.com/Flare576/switch-theme/archive/refs/tags/v1.3.2.tar.gz"
+  sha256 "cc093e298e94ac2e003024225a889be5c3bb912ffb07c612091c70daa3157d22"
   license "MIT"
 
   def install
