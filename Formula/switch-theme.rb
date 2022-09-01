@@ -13,7 +13,7 @@ class SwitchTheme < Formula
     bin.install "bin/setupWSLTheme.sh"
     lib.install "lib/themes"
     lib.install "lib/vim-switch-themes"
-    system_command 'switch-theme -s'
+    system "echo", "run switch-theme -s"
   end
 
   test do
