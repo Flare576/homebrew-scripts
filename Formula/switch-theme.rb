@@ -1,19 +1,15 @@
 class SwitchTheme < Formula
-  desc "Tool for switching themes in vim, tmux, zsh, bat, vsCode, terminals (gnome, mintty, Terminal.app), and whatever else I figure out."
+  desc "Tool for switching themes in vim, tmux, zsh, bat, vsCode, Azure Data Studio, terminals (gnome, mintty, Terminal.app), and whatever else I figure out. Be sure to run 'switch-theme -s' after install"
   homepage "https://github.com/Flare576/switch-theme"
-  url "https://github.com/Flare576/switch-theme/archive/refs/tags/v1.3.2.tar.gz"
-  sha256 "cc093e298e94ac2e003024225a889be5c3bb912ffb07c612091c70daa3157d22"
+  url "https://github.com/Flare576/switch-theme/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "71724d99eaa17637ac9cb7a18c2c12e643a4b998a8e110edf6a77ea8fbff878d"
   license "MIT"
 
   def install
     bin.install "bin/switch-theme"
-    bin.install "bin/themeOpenTerminals.scpt"
-    bin.install "bin/setupGnomeTheme.sh"
-    bin.install "bin/setupTerminalAppTheme.sh"
-    bin.install "bin/setupWSLTheme.sh"
+    lib.install "lib/scripts"
     lib.install "lib/themes"
     lib.install "lib/vim-switch-themes"
-    system "echo", "run switch-theme -s"
   end
 
   test do
