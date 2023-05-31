@@ -37,3 +37,19 @@ and whatever else I figure out.
 ### [vroom](https://github.com/Flare576/vroom)
 
 Wrapper for make to help setup/execute standard destroy/setup/run/watch commands
+
+## How To Update
+
+Because I forget sometimes.
+
+In the actual project:
+1. Bump the version number
+2. Get changes into `main` branch
+3. Run `git release create -m "DESCRIPTION" v0.0.0` With the right data
+
+In this Project
+1. Blank out the checksum in the formula
+2. Update the version in the URL
+3. Run `./test-formula project-name`
+4. Watch for "For your reference, the checksum is..." and copy/paste into formula.
+5. Push up new formula
