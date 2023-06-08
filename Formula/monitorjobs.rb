@@ -1,8 +1,8 @@
 class Monitorjobs < Formula
   desc ""
   homepage "https://github.com/Flare576/monitorjobs"
-  url "https://github.com/Flare576/monitorjobs/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "a9b0d4a404dbce24874cdd27c970818ebb7748ab1d7a93acbb7f4533213f8d5f"
+  url "https://github.com/Flare576/monitorjobs/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "93adbf0697ea116b3019da327e81779c2ad1b06c54e5cd6fa7fb60800acf4e2b"
   license "MIT"
 
   depends_on "jq"
