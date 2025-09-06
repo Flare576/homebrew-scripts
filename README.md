@@ -9,6 +9,8 @@ Docker Volume mapping control; container access made easy!
 
 ### [gac](https://github.com/Flare576/gac)
 
+> NOTE: Please install via `npm install -g git-gac`, this formula has been deprecated!
+
 Git Add/Commit (gac) is a command I started with as a small alias and evolved into what it is now, a
 slick script thatsimplifies my git interactions.
 
