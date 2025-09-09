@@ -12,6 +12,6 @@ class Vroom < Formula
   end
 
   test do
-    system "echo", "temp value for formula validation"
+    system "echo", "temp value for formula validation."
   end
 end
