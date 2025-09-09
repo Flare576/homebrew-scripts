@@ -51,8 +51,6 @@ In the actual project:
 
 In this Project
 
-> Do this once: `brew tap flare576/local .`
-
 1. Blank out the checksum in the formula
 2. Update the version in the URL
 3. Run `./get-hash.sh project-name`
