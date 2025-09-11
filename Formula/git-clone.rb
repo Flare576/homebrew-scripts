@@ -1,8 +1,8 @@
 class GitClone < Formula
   desc "Tool for maintaining multiple git accounts across any git system supporting HTTPS."
   homepage "https://github.com/Flare576/git-clone"
-  url "https://github.com/Flare576/git-clone/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "168c4066a977417117fb4123c49745fd52bf02da7873e600007a972cdbf2a133"
+  url "https://github.com/Flare576/git-clone/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "8ba26bbca13c4351e4c4cc317e7d98430921ab6de09143331768e3d4e13c498a"
   license "MIT"
 
   depends_on "git"
